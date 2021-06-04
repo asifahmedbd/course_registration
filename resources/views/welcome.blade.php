@@ -14,7 +14,7 @@
 <link rel="canonical" href="211536145438454.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
 <meta name="HandheldFriendly" content="true" />
-<title>Course Registration Form</title>
+<title>Online Admission Form</title>
 <!-- <link type="text/css" rel="stylesheet" href="{{ asset('css/printForm82ce.css') }}"/> -->
 <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}"/>
 
@@ -328,7 +328,7 @@
         <div class="form-header-group  header-large">
           <div class="header-text httal htvam">
             <h1 id="header_1" class="form-header" data-component="header">
-              Student Online Course Registration Form
+              Student Online Admission Form
             </h1>
             <div id="subHeader_1" class="form-subHeader">
               Fill out the form carefully for registration
@@ -539,28 +539,35 @@
         <label class="form-label form-label-top" id="label_27" for="input_27_full"> Mobile Number </label>
         <div id="cid_27" class="form-input-wide" data-layout="half">
           <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="tel" id="input_27_full" name="q27_mobileNumber[full]" data-type="mask-number" class="mask-phone-number form-textbox validate[Fill Mask]" style="width:310px" data-masked="true" value="" placeholder="(000) 000-0000" data-component="phone" aria-labelledby="label_27" />
+            <input type="tel" id="input_27_full" name="q27_mobileNumber[full]" data-type="mask-number" class="mask-phone-number form-textbox validate[Fill Mask]" style="width:310px" data-masked="true" value="" placeholder="01XXX-XXX-XXX" data-component="phone" aria-labelledby="label_27" />
             <label class="form-sub-label is-empty" for="input_27_full" id="sublabel_27_masked" style="min-height:13px" aria-hidden="false">  </label>
           </span>
         </div>
       </li>
       
-      <li class="form-line" data-type="control_dropdown" id="id_46">
-        <label class="form-label form-label-top form-label-auto" id="label_46" for="input_46"> Courses </label>
+      <li class="form-line form-line-column form-col-1" data-type="control_dropdown" id="id_46">
+        <label class="form-label form-label-top form-label-auto" id="label_46" for="input_46"> Programs To be Enrolled </label>
         <div id="cid_46" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_46" name="q46_courses" style="width:310px" data-component="dropdown" aria-labelledby="label_46">
             <option value=""> Please Select </option>
-            <option value="Windows 8"> Windows 8 </option>
-            <option value="Introduction to Linux"> Introduction to Linux </option>
-            <option value="English 101"> English 101 </option>
-            <option value="English 102"> English 102 </option>
-            <option value="Creative Writing 1"> Creative Writing 1 </option>
-            <option value="Creative writing 2"> Creative writing 2 </option>
-            <option value="History 101"> History 101 </option>
-            <option value="History 102"> History 102 </option>
-            <option value="Math 101"> Math 101 </option>
-            <option value="Math 102"> Math 102 </option>
+            <option value="">  B.A. (Hons.) in English </option>
+            <option value="">  Bachelor of Business Administration (BBA) </option>
+            <option value="">  B.Sc. in Textile Engineering </option>
+            <option value="">  B.Sc. in Computer Science and Engineering </option>
+            <option value="">  B.Sc. in Electrical Engineering </option>
+            <option value="">  B.Sc. in Civil Engineering </option>
+            <option value="">  Master of Business Administration (MBA) </option>
+            <option value="">  MA in English Literature and Cultural Studies </option>
           </select>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_email" id="id_6">
+        <label class="form-label form-label-top" id="label_6" for="input_6"> Student Photo </label>
+        <div id="cid_6" class="form-input-wide" data-layout="half">
+          <span class="form-sub-label-container" style="vertical-align:top">
+            <input type="file" id="input_6" name="" class="form-textbox" style="width:310px" size="310" value=""  />
+            <label class="form-sub-label" for="input_6" id="sublabel_input_6" style="min-height:13px" aria-hidden="false"> example@example.com </label>
+          </span>
         </div>
       </li>
       <li class="form-line" data-type="control_textarea" id="id_45">
